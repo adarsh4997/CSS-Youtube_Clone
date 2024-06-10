@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Reset HTML default Layout by browser using Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    /* border: 2px solid red; */
+}
+
+main{
+    height: calc(100vh - 70px);
+    display: flex;
+    background-color: #f9f9f9;
+    /* border: 2px solid blue; */
+}
+
+/* Sidebar */
+.side-bar{
+    height: 100%;   /*same height as of parent*/
+    width: 17%;
+    background-color: #fff;
+    overflow-y: hidden;
+}
+
+/* left part in header section like icons and menu bar*/
+.left{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* middle part of header section like input tag and mic icon */
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search form{
+    display: flex;
+    height: 45px;
+    /* border: 1px solid #ddd; */
+}
+
+.search input{
+    width: 600px;
+    padding: 10px;
+    height: 100%;
+    border: 1px solid #ccc;
+    /* border-radius: 2px 0 0 2px; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* make the search box appear little black while input */
+input:focus{
+    outline: none;
+    border: 1px solid #444;
+}
+
+.search button{
+    height: 100%;
+    width: 60px;
+    border: none;
+}
+
+.mic{
+    margin-top: 10px;
+}
+
+/* styling all material icons */
+.material-icons{
+    color: rgb(100, 100, 100);
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+/* side-bar on left side  */
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+/* for each tag or category inside one block like home or trending or subscription */
+.nav-link{
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+}
+
+.nav-link span{
+    margin-left: 15px;
+}
+
+/* Grey background when hover on each tag */
+.nav-link:hover {
+   background: #e5e5e5;
+   cursor: pointer;
+ }
+
+.active {
+   background: #e5e5e5;
+}
+
+/* creating light seperate line between each block */
+hr{
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+/* Content part starts here */
+.content{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+}
+
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video{
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+/* thumbnail */
+.thumbnail{
+    width: 100%;
+    height: 170px;
+    cursor: pointer;
+}
+
+.thumbnail img{
+    object-fit: cover;
+    border-radius: 12px;
+    height: 94%;
+    width: 100%;
+}
+
+.author img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 9px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+/* video details */
+
+.details{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+.author-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.author-name_views{
+    display: flex;
+    flex-direction: column;
+    margin-left: 58px;
+    margin-top: -10px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.title h3 {
+  color: rgb(3, 3, 3);
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  width: 190px;
+}
+
+a{
+    text-decoration: none;
+}
+ 
+.title a,span {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  
+}
+
+.more{
+    margin-left: -15px;
+}
+/* .more:focus{
+    background: #e5e5e5;
+    cursor: pointer;
+} */
