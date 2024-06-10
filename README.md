@@ -1,4 +1,4 @@
-# Youtube-Clone
+# YouTube-Clone
 
 ## Table of Contents
 
@@ -10,7 +10,6 @@
 - [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
