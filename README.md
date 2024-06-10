@@ -1,4 +1,4 @@
-# Video Browsing Page
+# Youtube-Clone
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-The **Video Browsing Page** is a web-based interface designed to display a collection of videos with a user-friendly and visually appealing layout. This project features a responsive design with a header for searching, a sidebar for navigation, and a main content area for showcasing video thumbnails and details.
+The **Youtube Clone** is a web-based interface designed to display a collection of videos with a user-friendly and visually appealing layout. This project features a responsive design with a header for searching, a sidebar for navigation, and a main content area for showcasing video thumbnails and details.
 
 ## Features
 
@@ -34,11 +34,11 @@ Check out the live demo of the project [here](https://adarsh4997.github.io/CSS-Y
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/video-browsing-page.git
+    git clone https://adarsh4997.github.io/CSS-Youtube_Clone/
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd video-browsing-page
+    cd CSS-Youtube_Clone/
     ```
 3. **Open `index.html` in your browser**:
     You can double-click on `index.html` or use a local server to view the page.
@@ -51,7 +51,7 @@ Check out the live demo of the project [here](https://adarsh4997.github.io/CSS-Y
 
 ## Folder Structure
 
-video-browsing-page/
+Youtube Clone/
 ├── css/
 │ └── style.css # Main stylesheet
 ├── images/
