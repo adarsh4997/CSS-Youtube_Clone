@@ -49,7 +49,7 @@ Check out the live demo of the project [here](https://adarsh4997.github.io/CSS-Y
 - **View Video Details**: Click on a video thumbnail for more information.
 
 ## Folder Structure
-
+```bash
 Youtube Clone/
 ├── css/
 │ └── style.css # Main stylesheet
@@ -57,7 +57,7 @@ Youtube Clone/
 │ └── https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png # Example thumbnail images
 ├── index.html # Main HTML file
 └── README.md # This README file
-
+```
 
 ## Technologies Used
 
